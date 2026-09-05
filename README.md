@@ -264,6 +264,6 @@ Start with [SKILL.md](SKILL.md), read only the relevant references, and view the
 
 **让想象先被看见。** 将视觉判断与创作流程整理成可以继续使用的方法。
 
-**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)** · [Character Casting Studio](https://github.com/dacnay816y62-hub/character-casting-studio-skill) · [CINEMA DNA](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3)
+**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub?tab=repositories)** · [Character Casting Studio](https://github.com/dacnay816y62-hub/character-casting-studio-skill) · [CINEMA DNA](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3)
 
 本地技能目录与加载方式参见 [OpenAI 官方 Skills 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
