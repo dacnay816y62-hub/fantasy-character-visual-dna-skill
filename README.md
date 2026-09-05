@@ -207,6 +207,12 @@ git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill
 
 本仓库公开展示规则与案例，未附加许可证。示例图保留原有文字与标识。
 
+## 关键词与标签
+
+`ai-skills` · `codex-skills` · `character-design` · `visual-development` · `character-consistency` · `prompt-engineering` · `midjourney` · `image-generation` · `image-editing` · `concept-art` · `cinematic-realism` · `fantasy-art` · `chinese-mythology` · `journey-to-the-west` · `worldbuilding` · `character-sheet` · `chinese` · `bilingual`
+
+这些关键词用于描述 Skill 的能力与题材。仓库侧栏的 About / Topics 可按[元数据清单](docs/repository-metadata.json)设置。
+
 ## English overview
 
 **FANTASY CHARACTER VISUAL DNA** is a reusable character design skill for cinematic realism, mythology reinterpretation, bilingual prompts, reference-guided edits and consistent character assets.
