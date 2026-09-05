@@ -1,0 +1,29 @@
+name: 角色效果反馈 / Character feedback
+description: 提供具体输入、实际结果与希望修正的内容，帮助改进规则。
+title: "[反馈] "
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: 你希望完成什么？
+      description: 粘贴角色需求和实际使用的提示词。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境与模型版本
+      description: 不确定时写不确定即可。
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与问题
+      description: 可附参考图和结果图，指出具体出错部位；只上传你愿意公开的内容。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 希望保持和希望改变的内容
+    validations:
+      required: true

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="38" viewBox="0 0 900 38" role="img" aria-label="Character Design, Cinematic Realism, ZH / EN, Reference Guided">
+  <rect width="206" height="36" rx="3" fill="#282724"/>
+  <rect x="214" width="248" height="36" rx="3" fill="#282724"/>
+  <rect x="470" width="130" height="36" rx="3" fill="#a8322c"/>
+  <rect x="608" width="250" height="36" rx="3" fill="#282724"/>
+  <g fill="#f6f1e7" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <text x="103" y="23">CHARACTER DESIGN</text>
+    <text x="338" y="23">CINEMATIC REALISM</text>
+    <text x="535" y="23">ZH / EN</text>
+    <text x="733" y="23">REFERENCE GUIDED</text>
+  </g>
+</svg>

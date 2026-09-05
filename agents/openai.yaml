@@ -1,0 +1,7 @@
+interface:
+  display_name: "FANTASY Character Visual DNA"
+  short_description: "从角色视觉辨识到中英提示词、局部修正与一致性资产的完整设计工作流"
+  default_prompt: "使用 $fantasy-character-visual-dna，根据我的角色想法或参考图，设计一个具有独立辨识度的角色并输出所需提示词。"
+
+policy:
+  allow_implicit_invocation: true
