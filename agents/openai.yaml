@@ -1,7 +1,7 @@
 interface:
   display_name: "FANTASY Character Visual DNA"
-  short_description: "从角色视觉辨识到中英提示词、局部修正与一致性资产的完整设计工作流"
-  default_prompt: "使用 $fantasy-character-visual-dna，根据我的角色想法或参考图，设计一个具有独立辨识度的角色并输出所需提示词。"
+  short_description: "设计人物形象、构建角色底图并配套 MJ 提示词，接续 MJ + Image2 创作"
+  default_prompt: "使用 $fantasy-character-visual-dna，根据我的角色想法或参考图设计人物形象，生成一张角色底图，并交付与底图一致的 MJ 提示词，用于后续 MJ + Image2 创作。"
 
 policy:
   allow_implicit_invocation: true

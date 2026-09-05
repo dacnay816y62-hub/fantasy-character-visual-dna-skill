@@ -1,6 +1,15 @@
-# 示例图库
+# 示例图库 · 全部由 MJ + Image2 生成
 
-19 张角色与叙事作品，由仓库维护者提供。本页展示视觉方向，不是本版本 Skill 生图测试报告。预览保持原图比例与构图，原有题字和标识不自动成为新任务的要求。
+## Skill 负责人物形象设计与底图构建，不是这些最终画面的生成
+
+> [!IMPORTANT]
+> **本页全部 19 张示例图由作者使用 Midjourney（MJ）+ Image2 生成与完善。Skill 完成前期人物形象设计与基础底图构建，不能把这些作品当作 Skill 单独直出的效果。**
+>
+> **All 19 examples were created with Midjourney + Image2. The Skill handles character design and base-image construction, not standalone finished-artwork generation.**
+
+**人物形象设计 → 生成角色底图 + 配套 MJ 提示词 → MJ 视觉深化 → Image2 修正与完善。**
+
+19 张角色与叙事作品由仓库维护者提供，用于展示完整工作流的视觉成果，不是本版本 Skill 生图测试报告。预览保持原图比例与构图，原有题字和标识不自动成为新任务的要求。
 
 [返回 README](../README.md)
 

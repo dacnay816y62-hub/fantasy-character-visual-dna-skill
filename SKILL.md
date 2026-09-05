@@ -1,19 +1,30 @@
 ---
 name: fantasy-character-visual-dna
-description: Develop distinctive fantasy characters from a brief or reference images, including mythology reinterpretation, bilingual image prompts, focused character edits, coordinated casts and consistent character assets. Use for character design, 角色设计, 神话二创, 角色反推, MJ/Banana角色提示词, 角色三视图 and 表情资产. Keep the user's requested style and deliverable; do not route unrelated retouching, typography or interior rendering into character design.
+description: Design distinctive fantasy characters and construct character base images through available image tools, paired with matching Midjourney prompts for further visual development. Use for 角色设计, 神话二创, 角色底图, 角色反推, MJ/Image2/Banana角色提示词, focused character edits and consistent character assets. The gallery was created with MJ + Image2, not by this Skill alone. Preserve prompt-only requests and the user's chosen style; exclude unrelated retouching, typography and interior rendering.
 ---
 
 # FANTASY CHARACTER VISUAL DNA
 
 把角色身份、身体结构、服装与标志物组织成可辨识、可继续开发的视觉形象。默认采用电影级写实；用户明确指定的风格优先。
 
+## 0. 先说明定位与交付结构
+
+**本 Skill 负责人物形象设计与底图构建。图库全部 19 张示例图由作者使用 MJ + Image2 生成与完善，不是 Skill 单独生成的最终画面。** 不把示例包装成一键直出效果，也不虚构逐图生成过程或参数。
+
+**完整交付结构：生成角色底图 + 配套 MJ 提示词。** 在新用户首次完整角色设计的开头，用一句短提示让其看到：**人物形象设计 → 角色底图 + MJ 提示词 → MJ 视觉深化 → Image2 修正与完善。** 后续局部修改不反复插入长说明；严格“只要提示词”等输出要求优先。
+
+- 完整新角色设计默认构建一张便于观察人物的底图，并交付同设定的 MJ 提示词；实际图像由当前环境提供的图像工具生成。
+- 只要提示词时不调用图像工具；只要图片、指定平台或指定语言时按用户要求交付。
+- 没有图像工具时，明确说明“角色底图尚未生成”，提供底图生成说明与 MJ 提示词，不把一段文字标成已生成的图片。
+- 底图优先解决角色身份、比例、脸、服装与标志物的可辨识性；后续画面风格、表现与完善交给 MJ + Image2 工作流。其他工具可按用户选择替代，不改写图库来源。
+
 ## 1. 先选择当前任务
 
 | 用户要什么 | 执行方式 | 按需读取 |
 | --- | --- | --- |
-| 一个新角色或神话重构 | 明确身份与少量核心识别点，输出一版主方案 | [设计规则](references/design-rules.md) |
+| 一个新角色或神话重构 | 明确身份与少量核心识别点，以角色底图 + MJ 提示词交付一版主方案 | [设计规则](references/design-rules.md)、[提示词编译](references/prompt-compiler.md) |
 | 根据图片反推或局部修改 | 分配参考图用途，保留身份与未修改区域 | [参考与编辑](references/reference-and-editing.md) |
-| MJ / Banana 提示词 | 仅交付所需语言和平台的可复制文字 | [提示词编译](references/prompt-compiler.md) |
+| MJ / Image2 / Banana 提示词 | 仅交付所需语言和平台的可复制文字 | [提示词编译](references/prompt-compiler.md) |
 | 三视图、头肩、表情或道具资产 | 使用已确认基准，只改变本次允许的变量 | [资产一致性](references/asset-consistency.md) |
 | 系列角色或群像 | 先建立角色差异，再统一材料工艺与世界观 | [设计规则](references/design-rules.md) |
 | 已确认的赛博西游项目 | 在通用规则上加载对应角色预设 | [赛博西游预设](references/cyber-journey-preset.md) |
@@ -27,8 +38,8 @@ description: Develop distinctive fantasy characters from a brief or reference im
 
 - 新要求只覆盖对应字段，不重写其他已确认内容。
 - 风格参考不自动成为身份参考；局部服装参考不自动替换人脸、姿态和背景。
-- 用户只要提示词时只输出文字；明确要求图片时才调用实际可用的生图或编辑能力。
-- 不声称已经操作无法访问的 Midjourney、Banana 或其他平台。
+- 完整角色设计按第 0 节交付；用户只要提示词时只输出文字，不擅自生成图像。
+- 不声称已经操作无法访问的 Midjourney、Image2、Banana 或其他平台；提供 MJ 提示词不等于已完成 MJ 生成。
 - 输入基本足够时直接完成一版主方案。仅当关键身份、基准版本或硬性要求相互冲突且无法判断时询问。
 - 不自动扩成完整世界观、多轮问卷、批量变体或全套资产。
 
@@ -76,7 +87,8 @@ description: Develop distinctive fantasy characters from a brief or reference im
 - 中英提示词共享同一设定；按用户需要给单语言或双语言，不擅自加武器、颜色和身份。
 - 平台主体描述与参数分开。具体版本号、参考参数和权重仅在已确认支持时填写；无法核实时交付主体文本并说明参数尚未确认。
 - 编辑指令明确底图、保留项、修改对象、参考分工及光线遮挡衔接，不在局部修改时同时重做整个角色。
-- 默认交付简短角色定位与所需提示词。用户要求精简时省去设计分析；用户要求完整方案时展开 DNA 与设计理由。
+- 完整角色设计交付简短定位、实际生成的角色底图及配套 MJ 提示词；两者共享相同的身份、体型、脸、毛发、服装、配色和标志物。底图出现偏差时先修正或明确待修项，不让提示词悄悄成为另一个角色。
+- 用户要求精简或仅提示词时省去设计分析，并遵循指定平台与语言；用户要求完整方案时再展开 DNA 与设计理由。
 
 ## 7. 检查与结束
 

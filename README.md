@@ -1,3 +1,28 @@
+# 示例图由 MJ + Image2 生成
+
+## Skill 负责底图构建与人物形象设计，不是最终示例画面的生成
+
+> [!IMPORTANT]
+> **本仓库全部 19 张示例图，均由作者使用 Midjourney（MJ）+ Image2 生成与完善。**
+>
+> **Skill 完成的是人物形象的设计与基础底图的构建：身份、体型、脸型、服装、材质和固定特征。图库展示的是经过 MJ + Image2 后续创作的画面，不能当作 Skill 单独直出的效果。**
+>
+> **All 19 gallery images were created with Midjourney + Image2. This Skill handles character design and base-image construction; the gallery is not its standalone image output.**
+
+## 每位用户先看：生成角色底图 + 配套 MJ 提示词
+
+**Skill 设计人物 → 生成角色底图 + MJ 提示词 → MJ 视觉深化 → Image2 修正与完善**
+
+| 环节 | 做什么 | 得到什么 |
+| --- | --- | --- |
+| **① Skill / ChatGPT + 当前可用图像工具** | 明确人物形象，建立可辨识的基础造型 | **角色底图 + 与底图一致的 MJ 提示词** |
+| **② Midjourney（MJ）** | 用底图和配套提示词继续探索风格、材质、光线与画面表现 | 选定视觉方向与候选画面 |
+| **③ Image2** | 围绕选定画面修正人物、服装、道具与局部细节 | 完善后的作品，再按需发展角色资产 |
+
+**“生成图像 + MJ”是一套交付：图像用于建立人物底图，MJ 提示词用于接续创作。** Skill 是设计规则，实际生成底图由所在环境的图像工具执行。完整角色设计按这套结构交付；只要提示词时只输出文字。没有图像工具时会说明底图尚未生成，并交付底图生成说明与 MJ 提示词。
+
+---
+
 # FANTASY CHARACTER VISUAL DNA
 
 ### 角色视觉 DNA · 让想象先被看见
@@ -20,13 +45,13 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 
 默认追求电影级写实：真实骨相与皮肤毛发、清楚的形体关系、可信的服装结构、具有重量与功能的道具。用户指定动画、插画或其他方向时，以当前任务为准。
 
-这是供助手读取的设计规则与工作流，**本身不是图像模型**。它帮助设计、组织与检查，不承诺跨模型的绝对一致或一键复现。
+这是供助手读取的**人物形象设计与底图构建规则**，本身不是图像模型。它把角色设计落实为底图和后续 MJ 提示词；最终画面通过 MJ + Image2 继续生成与完善，不承诺一键复现图库作品。
 
 ## 可以做什么
 
 | 需求 | 对应成果 |
 | --- | --- |
-| 从一句话开始设计角色 | 简短定位、核心识别点、可直接使用的提示词 |
+| 从一句话开始设计角色 | 人物定位、核心识别点、角色底图 + 配套 MJ 提示词 |
 | 神话、志怪、小说与经典角色重构 | 原型锚点、创新方向与可辨识的新形象 |
 | 根据参考图继续开发 | 角色锁定清单与参考图分工 |
 | 系列角色、同一阵营或群像 | 世界共性与人物差异矩阵 |
@@ -43,7 +68,9 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 使用 $fantasy-character-visual-dna。
 设计一个 2000 年后的黑熊精，保留完整熊妖体态。
 服装要有现代时尚感，也能看出袈裟的结构意向。
-科技元素克制，背景简单，先给我一版中英文角色提示词。
+科技元素克制，背景简单。
+先生成一张能看清人物形象的角色底图，再给与底图一致、可直接复制的 MJ 英文提示词。
+说明哪些人物特征进入 MJ 后必须保留。
 ```
 
 ### 保持参考，只改局部
@@ -69,7 +96,7 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 先给角色差异表，再分别给英文提示词，不要套东方神话装饰。
 ```
 
-你只要提示词时，Skill 只交付文字；你要求直接生成图片时，助手才使用当前环境实际提供的图像能力。
+完整角色设计采用 **角色底图 + MJ 提示词** 的交付结构。只需要文字时直接写“只要提示词，不生成图片”；已有底图时可直接接续 MJ 或 Image2 环节，不必重做人物。
 
 ## 设计规则
 
@@ -100,13 +127,13 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 
 | 阶段 | 要完成的判断 | 可以如何配合工具 |
 | --- | --- | --- |
-| 建立角色 | 身份、身体、脸、衣服与少量关键特征 | ChatGPT / 支持 Skill 的助手整理需求和参考 |
-| 探索视觉 | 比例、构图、材质与风格方向 | Midjourney 或其他生成模型进行视觉探索 |
-| 选定基准 | 选出形象准确的一张，记录固定特征 | 保存图片与简短角色 DNA 清单 |
-| 局部修正 | 找准脸、衣物、武器或结构的具体问题 | Banana 或支持参考图编辑的模型修正 |
+| 设计与构建底图 | 身份、身体、脸、衣服与少量关键特征 | Skill 整理设计，当前图像工具生成底图，同时交付 MJ 提示词 |
+| MJ 视觉深化 | 保留人物设计，探索材质、光线、风格与构图 | 把角色底图和 MJ 提示词一起带入 Midjourney |
+| 选定基准 | 选出形象准确的一张，记录固定特征 | 保存 MJ 候选图与简短角色 DNA 清单 |
+| Image2 修正与完善 | 找准脸、衣物、武器或结构的具体问题 | 使用 Image2 配合参考图与局部修改指令完善画面 |
 | 角色资产化 | 让已确认形象进入下一步内容生产 | 三视图、头肩、表情、道具与场景应用 |
 
-实际工作可以在这些环节之间往返。角色还没稳定时，不急着批量展开全部素材；工具也可以根据你的使用环境替换。
+**本仓库示例采用 MJ + Image2 的创作流程。** 实际工作可以在这些环节之间往返，角色还没稳定时不急着批量展开全部素材。你也可以在自己的项目中使用 Banana 或其他工具完成对应环节，这不改变本图库的来源说明。
 
 ### 使用参考与参数时
 
@@ -123,7 +150,7 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 
 [查看完整的 19 张示例及逐图说明 →](docs/GALLERY.md)
 
-示例由仓库维护者提供，用于展示角色辨识、轮廓、材质和关系设计。它们不是本版本规则的生图测试记录，也不保证可以原样复现。
+**以下及完整图库中的 19 张示例图，全部由作者使用 MJ + Image2 生成与完善。Skill 负责前期人物形象设计和底图构建，示例展示的是后续创作成果，不是 Skill 单独生成的最终画面。** 它们也不是本版本规则的生图测试记录，不保证可以原样复现。
 
 图库保留原始文件名称记录，并对名称与可见画面不一致的案例作了说明。例如文件名含“无头骑士”的图中，主体肩上仍有头部，因此仅作为哥特造型探索展示。
 
@@ -168,6 +195,14 @@ git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill
 | [仓库元数据](docs/repository-metadata.json) | About 与 Topics 的维护记录 |
 
 ## 常见问题
+
+**安装 Skill 就能直接生成图库里这样的最终画面吗？**
+
+不能这样理解。Skill 先解决人物是谁、长什么样、哪些特征要固定，并构建角色底图、交付配套 MJ 提示词。图库的最终示例由 MJ + Image2 生成与完善。应把它看作完整工作流的作品展示，而不是 Skill 的一键直出承诺。
+
+**为什么要同时交付“生成图像 + MJ 提示词”？**
+
+底图把人物形象变成可参考的视觉基准，MJ 提示词把同一套设计带入下一环节。两者应保持体型、脸型、服装、配色与标志物一致，帮助你继续深化画面；只需要提示词时可以明确要求仅交付文字。
 
 **会不会所有角色都被做成赛博西游？**
 
@@ -215,7 +250,11 @@ git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill
 
 ## English overview
 
-**FANTASY CHARACTER VISUAL DNA** is a reusable character design skill for cinematic realism, mythology reinterpretation, bilingual prompts, reference-guided edits and consistent character assets.
+**All 19 gallery images were created by the author with Midjourney + Image2. The Skill handles character design and base-image construction, not the standalone generation of the finished gallery artwork.**
+
+**Character design → base image + matching MJ prompt → Midjourney visual development → Image2 refinement.**
+
+**FANTASY CHARACTER VISUAL DNA** is a reusable character design skill for cinematic realism, mythology reinterpretation, bilingual prompts, reference-guided edits and consistent character assets. A complete character-design task pairs a base image, generated through the host's available image tool, with a matching MJ prompt. If no image tool is available, the assistant labels the base image as not generated and provides the generation brief plus the MJ prompt.
 
 It starts from identity, species anatomy, silhouette, proportions, facial structure, clothing, materials, signature objects and behavior. It helps an assistant produce a coherent character concept and carry the selected design into focused edits, turnarounds and expression sheets.
 
@@ -224,6 +263,6 @@ It starts from identity, species anatomy, silhouette, proportions, facial struct
 - Prompt-only requests remain text-only.
 - Existing identity references are preserved during focused edits.
 - Model-specific parameters must be verified for the actual version in use.
-- The gallery contains 19 creator-supplied examples, not a claim of reproducible benchmark results.
+- The gallery contains 19 creator-supplied MJ + Image2 examples, not standalone Skill outputs or reproducible benchmark results.
 
 Start with [SKILL.md](SKILL.md), read only the relevant references, and view the [full gallery](docs/GALLERY.md).
