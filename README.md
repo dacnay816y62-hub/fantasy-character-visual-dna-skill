@@ -163,13 +163,13 @@ AI 可以很快生成一个复杂的角色，但复杂并不等于有设计。�
 **Windows PowerShell（默认用户目录）：**
 
 ```powershell
-git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill.git "$env:USERPROFILE\.codex\skills\fantasy-character-visual-dna"
+git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill.git "$env:USERPROFILE\.agents\skills\fantasy-character-visual-dna"
 ```
 
 **macOS / Linux：**
 
 ```bash
-git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill.git "${CODEX_HOME:-$HOME/.codex}/skills/fantasy-character-visual-dna"
+git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill.git "$HOME/.agents/skills/fantasy-character-visual-dna"
 ```
 
 如果自定义了 Codex 数据目录，请改成相应目录。目标文件夹已存在时，不重复覆盖；先确认里面是否就是这个仓库。
@@ -259,3 +259,11 @@ It starts from identity, species anatomy, silhouette, proportions, facial struct
 - The gallery contains 19 creator-supplied MJ + Image2 examples, not standalone Skill outputs or reproducible benchmark results.
 
 Start with [SKILL.md](SKILL.md), read only the relevant references, and view the [full gallery](docs/GALLERY.md).
+
+---
+
+**让想象先被看见。** 将视觉判断与创作流程整理成可以继续使用的方法。
+
+**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)** · [Character Casting Studio](https://github.com/dacnay816y62-hub/character-casting-studio-skill) · [CINEMA DNA](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3)
+
+本地技能目录与加载方式参见 [OpenAI 官方 Skills 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
