@@ -192,7 +192,6 @@ git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill
 | [赛博西游预设](references/cyber-journey-preset.md) | 项目专用设定，按需启用 |
 | [质量与纠偏](references/quality-and-iteration.md) | 常见失败、反馈转译与检查边界 |
 | [完整图库](docs/GALLERY.md) | 19 张示例、设计说明及原始名称对应表 |
-| [仓库元数据](docs/repository-metadata.json) | About 与 Topics 的维护记录 |
 
 ## 常见问题
 
@@ -241,12 +240,6 @@ git clone https://github.com/dacnay816y62-hub/fantasy-character-visual-dna-skill
 把视觉判断、创作经验与模型工具组织成可持续使用的方法。Skill 帮助搭建和迭代，角色最终是否成立，仍然需要创作者自己的判断。
 
 本仓库公开展示规则与案例，未附加许可证。示例图保留原有文字与标识。
-
-## 关键词与标签
-
-`ai-skills` · `codex-skills` · `character-design` · `visual-development` · `character-consistency` · `prompt-engineering` · `midjourney` · `image-generation` · `image-editing` · `concept-art` · `cinematic-realism` · `fantasy-art` · `chinese-mythology` · `journey-to-the-west` · `worldbuilding` · `character-sheet` · `chinese` · `bilingual`
-
-这些关键词用于描述 Skill 的能力与题材。仓库侧栏的 About / Topics 可按[元数据清单](docs/repository-metadata.json)设置。
 
 ## English overview
 
